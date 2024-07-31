@@ -1,0 +1,18 @@
+﻿@MinimalApiTodoList_HostAddress = https://localhost:7068
+
+POST {{MinimalApiTodoList_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
+
+Get {{TodoApi_HostAddress}}/todoitems
+
+###
+
+GET {{MinimalApiTodoList_HostAddress}}/todoitems/{id}
+
+###
